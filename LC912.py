@@ -5,11 +5,6 @@ class Solution:
         self.quickSort(nums, 0, len(nums) - 1)
         return nums
         
-#class Solution:
-    def sortArray(self, nums: List[int]) -> List[int]:    
-        self.quickSort(nums, 0, len(nums) - 1)
-        return nums
-        
     def quickSort(self, nums:List[int], left:int, right:int ) -> None:
         if left >= right:
             return
